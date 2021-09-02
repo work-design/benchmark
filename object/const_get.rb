@@ -1,11 +1,17 @@
 require 'benchmark/ips'
 
+module Aaa
+  module Bbb
+
+  end
+end
+
 def fast
-  Object
+  Aaa::Bbb
 end
 
 def slow
-  Object.const_get 'Object'
+  Aaa.const_get 'Bbb'
 end
 
 Benchmark.ips do |x|
