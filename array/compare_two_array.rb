@@ -17,3 +17,5 @@ Benchmark.ips do |x|
   x.report('Array#to_set') { slow }
   x.compare!
 end
+
+# Array#to_set: 6.90x slower

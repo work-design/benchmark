@@ -6,3 +6,5 @@ Benchmark.ips do |x|
   x.report('DateTime#now') { DateTime.now }
   x.compare!
 end
+
+# Time#now: 1.14x slower

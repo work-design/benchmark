@@ -16,3 +16,5 @@ Benchmark.ips do |x|
   x.report('Array#compact!') { fast }
   x.compare!
 end
+
+# Array#compact: 1.16x slower
