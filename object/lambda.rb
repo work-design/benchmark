@@ -21,4 +21,4 @@ Benchmark.ips do |x|
   x.compare!
 end
 
-# lambda:  1282910.6 i/s - 1.22x  (± 0.00) slower
+# lambda: 1.22x slower

@@ -13,3 +13,5 @@ Benchmark.ips do |x|
   x.report('send 调用') { slow }
   x.compare!
 end
+
+# send 调用: 1.23x slower

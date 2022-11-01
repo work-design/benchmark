@@ -19,3 +19,5 @@ Benchmark.ips do |x|
   x.report('const get 调用') { slow }
   x.compare!
 end
+
+# const get 调用: 2.56x slower

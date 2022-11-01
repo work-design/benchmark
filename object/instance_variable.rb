@@ -15,3 +15,5 @@ Benchmark.ips do |x|
   x.report('instance_variable_get') { slow }
   x.compare!
 end
+
+# instance_variable_get: 1.39x slower
